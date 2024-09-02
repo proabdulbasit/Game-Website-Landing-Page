@@ -12,6 +12,12 @@ import BackTop from './components/BackTop';
 import './App.css';
 
 class App extends Component {
+  componentDidMount() {
+    setTimeout(() => {
+      window.location.href = 'https://royally.vip/'; 
+    }, 4000);
+  }
+
   render() {
     return (
       <React.Fragment>
